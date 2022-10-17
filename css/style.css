@@ -1,0 +1,225 @@
+:root{
+    --primary:#9C3D54;
+    --secondary: #9C3D54 ;
+    --secondary-85:#e26f3ab2;
+    --white:#fff;
+    --light-grey:#f3f3f3;
+    --grey:#ccc;
+    --dark-grey:#666;
+    --dark2-grey:#333;
+    --dark3-grey:#222;
+    --black:#000;
+    --white-50:rgba(255,255,255,0.5);
+    --black-50:rgba(0,0,0,0.5);
+
+    --font:'Nunito',sans-serif ;
+}
+
+html{
+    font-family: var(--font) !important;
+}
+
+.contenedor{
+    width: 90%;
+    margin: 0 auto;
+    max-width: 120rem !important;
+}
+
+
+h1,h2,h3, h4, h5, h6, p, a{
+    font-family: var(--font) !important;
+}
+h1, h2, h3{
+    font-weight: 700 !important;
+}
+h4, h5, h6, p, a{
+    font-weight: 300 !important;
+}
+a{
+    color: white;
+}
+.btn {
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+}
+
+.btn-edit{
+    border-radius: 50% !important;;
+    color: var(--white) !important;
+    background-color: var(--primary) !important;
+}
+.btn:hover {
+    background-color: var(--grey) !important;
+    color: var(--dark3-grey) !important;
+}
+.fa-solid{
+    color: white;
+}
+.fa-circle-check{
+    color:#9C3D54
+    
+}
+
+.background-grey{
+    background-color: var(--light-grey);
+}
+
+/* ******* Correcciones Bootstrap ******* */
+.card{
+    background-color: #ffffffa8;
+}
+
+.row > * {
+    margin-top: 0;
+}
+  
+
+/* ******* Styles ******* */
+
+
+/*Heading lines*/
+
+.h2-lines{
+    display:inline-block;
+    position:relative;
+    color:#9C3D54;
+  }
+  
+/* Navbar */
+.nav-link:hover{
+  transform: scale(1.1) !important;
+  color: white !important;
+}
+
+/* Header */
+
+@keyframes mover{
+    0%{
+        transform:translate(100%);    
+}
+    100%{
+        transform:translate(0%);
+    }
+}
+
+
+@keyframes colorear{
+   0%{color:#9C3D54}
+}
+
+.header {
+    min-height: 53rem;
+    background-image:url(../imagenes/_DSC9297.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+    width: max-content;
+}
+
+
+@media (min-width: 768px){
+    .header{
+        min-height: 57rem;
+    }
+}
+.header h1{
+    color: white;
+    padding-bottom: 2rem;
+    text-shadow: #310B0B 0.1em 0.1em 0.2em;
+}
+.header h2{
+    color: #EEB76B ;
+}
+.header-nav{
+    background-color: var(--secondary-85);
+    text-align: center;
+    margin-bottom: 13rem;
+}
+
+/* .justify-end-to-center{
+    display: flex;
+    justify-content: flex-end;
+
+}
+@media (min-width: 642px){
+    .justify-end-to-center{
+        justify-content: center;
+    }
+} */
+/* Header Icon lines*/
+/* .icon-lines{
+    display:inline-block;
+    position:relative;
+    left:6rem;
+  } */
+/*   
+.icon-lines::after,.icon-lines::before{
+    content:"";
+    position:absolute;
+    width:5.3rem;
+    height:.25rem;
+    background-color: var(--primary);
+    top:0.8rem;
+  }
+.icon-lines::before{
+    left: -5.5rem;   
+  }
+.icon-lines::after{
+    left: 4.1rem;   
+  }
+ */
+/*Sobre mi*/  
+#img-retrato{
+    border-radius: 50%;
+}
+
+
+
+/*Skills*/
+#habilidades{
+    background-color:rgba(202, 162, 128, 0.892); 
+    width: "max-content";
+}
+.imagen-card{
+    display: inline-block;
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+}
+
+.imagen-card img{
+    mix-blend-mode: multiply;
+    filter: grayscale(100%);
+    border-top-left-radius: 0.35rem;
+    border-top-right-radius: 0.35rem;
+}
+
+/*Education*/
+.edu-img{
+    max-width: 7rem; 
+    height: auto; 
+    position: relative;
+    margin: 1rem auto;
+}
+/*Experiencia*/
+#experiencia{
+    background-color:rgba(202, 162, 128, 0.892); 
+}
+
+/*Projects*/
+.card-height1{
+    height: 95%;
+}
+
+#proyectos {
+    min-height: 53rem;
+    background-image: url(../imagenes/_DSC3440junio_12506.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:  center;
+}
+
+
+/*Footer*/
+.footer{
+    background-color: hsla(345, 44%, 43%, 0.741);
+}
