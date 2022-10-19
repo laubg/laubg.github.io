@@ -1,3 +1,5 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
+ */
 :root{
     --primary:#9C3D54;
     --secondary: #9C3D54 ;
@@ -12,11 +14,15 @@
     --white-50:rgba(255,255,255,0.5);
     --black-50:rgba(0,0,0,0.5);
 
-    --font:'Nunito',sans-serif ;
 }
 
+*::selection {
+    background: #9C3D54;
+    color: white;  
+  }
+
 html{
-    font-family: var(--font) !important;
+    font-family: 'Hind Madurai',sans-serif;
 }
 
 .contenedor{
@@ -25,15 +31,22 @@ html{
     max-width: 120rem !important;
 }
 
+h1, h3{
+    font-family: 'Monserrat';
+}
 
-h1,h2,h3, h4, h5, h6, p, a{
-    font-family: var(--font) !important;
+.display-1 {
+    font-size: calc(2.2rem + 4.5vw);
+}
+
+h2,h4, h5, h6, p, a{
+    font-family: 'Hind Madurai';
 }
 h1, h2, h3{
     font-weight: 700 !important;
 }
 h4, h5, h6, p, a{
-    font-weight: 300 !important;
+    font-weight: 350 !important;
 }
 a{
     color: white;
@@ -52,10 +65,16 @@ a{
     background-color: var(--grey) !important;
     color: var(--dark3-grey) !important;
 }
-.fa-solid{
+
+#perfiles{
     color: white;
 }
+
 .fa-circle-check{
+    color:#9C3D54
+    
+}
+.fa-brands{
     color:#9C3D54
     
 }
@@ -72,14 +91,16 @@ a{
 .row > * {
     margin-top: 0;
 }
-  
 
+.display-6 {
+    font-size: calc(1.2rem + 1.5vw);
+}
 /* ******* Styles ******* */
 
 
 /*Heading lines*/
 
-.h2-lines{
+.h3-lines{
     display:inline-block;
     position:relative;
     color:#9C3D54;
@@ -168,11 +189,29 @@ a{
     left: 4.1rem;   
   }
  */
-/*Sobre mi*/  
-#img-retrato{
-    border-radius: 50%;
-}
 
+
+/* Sobre mi  */
+#img-retrato{
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    transition: all 1s;
+} 
+
+#img-retrato:hover{
+    border-radius: 50% ;
+} 
+
+.card-title {
+    margin-bottom: 0.2rem;
+}
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem 0rem;
+}
+.items-cards {
+    flex: 1 1 auto;
+    padding: 0.4rem 0.2rem 0.2rem;
+}
 
 
 /*Skills*/
@@ -217,6 +256,45 @@ a{
     background-size: cover;
     background-position:  center;
 }
+
+/* ul{
+    line-height: 4ex;
+    text-align: center;
+} */
+
+.item{
+    border: 1px #c3976f solid;
+    border-radius: 5px;
+    box-shadow:2px 2px #bb3b0075;
+    background-color:rgba(226, 111, 58, 0.271);
+    padding: 2px 6px;
+    margin: 5px;
+    list-style: none;
+    display: inline;
+    line-height:2px;
+    
+}
+
+/* #columna{
+    
+    text-align: center;
+    margin:0;
+    /* display: block; */
+    /* display: flex;
+    flex-wrap: wrap; */
+/* } */
+
+/* .item{
+    border: 1px #c3976f solid;
+    border-radius: 12px;
+    box-shadow:2px 2px #bb3b0075;
+    background-color:rgba(226, 111, 58, 0.325);
+    padding: 2px;
+    margin: 5px;
+    
+  
+    line-height:3ex;
+} */
 
 
 /*Footer*/
