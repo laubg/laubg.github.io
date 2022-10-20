@@ -1,5 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Hind+Madurai:wght@300&family=Lora:ital@1&family=Montserrat:wght@600&display=swap');
- */
+
 :root{
     --primary:#9C3D54;
     --secondary: #9C3D54 ;
@@ -86,6 +85,7 @@ a{
 /* ******* Correcciones Bootstrap ******* */
 .card{
     background-color: #ffffffa8;
+    border: 0;
 }
 
 .row > * {
@@ -143,52 +143,23 @@ a{
         min-height: 57rem;
     }
 }
+
 .header h1{
     color: white;
     padding-bottom: 2rem;
     text-shadow: #310B0B 0.1em 0.1em 0.2em;
 }
+
 .header h2{
     color: #EEB76B ;
 }
+
 .header-nav{
     background-color: var(--secondary-85);
     text-align: center;
     margin-bottom: 13rem;
 }
 
-/* .justify-end-to-center{
-    display: flex;
-    justify-content: flex-end;
-
-}
-@media (min-width: 642px){
-    .justify-end-to-center{
-        justify-content: center;
-    }
-} */
-/* Header Icon lines*/
-/* .icon-lines{
-    display:inline-block;
-    position:relative;
-    left:6rem;
-  } */
-/*   
-.icon-lines::after,.icon-lines::before{
-    content:"";
-    position:absolute;
-    width:5.3rem;
-    height:.25rem;
-    background-color: var(--primary);
-    top:0.8rem;
-  }
-.icon-lines::before{
-    left: -5.5rem;   
-  }
-.icon-lines::after{
-    left: 4.1rem;   
-  }
- */
 
 
 /* Sobre mi  */
@@ -214,7 +185,7 @@ a{
 }
 
 
-/*Skills*/
+/*Habilidades*/
 #habilidades{
     background-color:rgba(202, 162, 128, 0.892); 
     width: "max-content";
@@ -232,35 +203,41 @@ a{
     border-top-right-radius: 0.35rem;
 }
 
-/*Education*/
+/*Educacion*/
 .edu-img{
     max-width: 7rem; 
     height: auto; 
     position: relative;
     margin: 1rem auto;
 }
+
+.educacion{
+    /* border-radius: 50px; */
+    
+   /*  border: 1px solid rgba(202, 162, 128, 0.892); */
+    border-radius: 0.25rem;
+    box-shadow:  rgba(202, 162, 128, 0.892)0px 4px 12px;
+    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+}
 /*Experiencia*/
 #experiencia{
     background-color:rgba(202, 162, 128, 0.892); 
 }
 
-/*Projects*/
+/*Projectos*/
 .card-height1{
     height: 95%;
 }
 
 #proyectos {
-    min-height: 53rem;
+    min-height: 40rem;
     background-image: url(../imagenes/_DSC3440junio_12506.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position:  center;
 }
 
-/* ul{
-    line-height: 4ex;
-    text-align: center;
-} */
+
 
 .item{
     border: 1px #c3976f solid;
@@ -274,28 +251,6 @@ a{
     line-height:2px;
     
 }
-
-/* #columna{
-    
-    text-align: center;
-    margin:0;
-    /* display: block; */
-    /* display: flex;
-    flex-wrap: wrap; */
-/* } */
-
-/* .item{
-    border: 1px #c3976f solid;
-    border-radius: 12px;
-    box-shadow:2px 2px #bb3b0075;
-    background-color:rgba(226, 111, 58, 0.325);
-    padding: 2px;
-    margin: 5px;
-    
-  
-    line-height:3ex;
-} */
-
 
 /*Footer*/
 .footer{
