@@ -106,7 +106,7 @@ observer.observe ($titulo) */
     }
   })
 
-  window.addEventListener('scroll', function(){
+/*   window.addEventListener('scroll', function(){
     let animacion=document.getElementById('sobre-mi');
     let posicionTitulo = animacion.getBoundingClientRect().top;
     console.log(posicionTitulo);
@@ -115,5 +115,5 @@ observer.observe ($titulo) */
     if(posicionTitulo < tamanioPantalla){
         animacion.style.animation = 'colorear 35s linear'
     }
-  })
+  }) */
 

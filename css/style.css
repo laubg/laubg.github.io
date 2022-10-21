@@ -22,6 +22,11 @@
 
 html{
     font-family: 'Hind Madurai',sans-serif;
+    
+}
+
+body {
+    color:#525252
 }
 
 .contenedor{
@@ -163,10 +168,12 @@ a{
 
 
 /* Sobre mi  */
-#img-retrato{
+#img-retrato {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     transition: all 1s;
 } 
+
+
 
 #img-retrato:hover{
     border-radius: 50% ;
@@ -212,13 +219,11 @@ a{
 }
 
 .educacion{
-    /* border-radius: 50px; */
-    
-   /*  border: 1px solid rgba(202, 162, 128, 0.892); */
     border-radius: 0.25rem;
     box-shadow:  rgba(202, 162, 128, 0.892)0px 4px 12px;
-    /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
+   
 }
+
 /*Experiencia*/
 #experiencia{
     background-color:rgba(202, 162, 128, 0.892); 
