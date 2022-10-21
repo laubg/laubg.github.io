@@ -26,7 +26,7 @@ html{
 }
 
 body {
-    color:#525252
+    color:#525252;
 }
 
 .contenedor{
@@ -116,6 +116,7 @@ a{
   transform: scale(1.1) !important;
   color: white !important;
 }
+
 
 /* Header */
 
