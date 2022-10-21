@@ -224,6 +224,10 @@ a{
     background-color:rgba(202, 162, 128, 0.892); 
 }
 
+a {
+    color: #9C3D54;
+}
+
 /*Projectos*/
 .card-height1{
     height: 95%;
