@@ -254,8 +254,7 @@ a:hover{
 
 
 /*Educacion*/
-.edu-img{
-    max-width: 7rem; 
+#educacion-retrato{   
     height: auto; 
     position: relative;
     margin: 1rem auto;
