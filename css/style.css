@@ -55,6 +55,10 @@ h4, h5, h6, p, a{
     font-weight: 350 !important;
 }
 
+p{
+    margin-top: 5px ;
+    margin-left: 0px ;
+}
 a{
     color: #9C3D54;
 }
@@ -203,6 +207,20 @@ a:hover{
     padding: 0.4rem 0.2rem 0.2rem;
 }
 
+@media (max-width: 769px) {
+    .col-sm-4 {
+        float:none;    
+        width: 100%;
+        text-align: center;
+        
+
+    }
+    .col-sm-8{
+        float:none;    
+        width: 100%;
+    }
+    
+}
 
 /*Habilidades*/
 #habilidades{
@@ -221,6 +239,7 @@ a:hover{
     border-top-left-radius: 0.35rem;
     border-top-right-radius: 0.35rem;
 }
+
 
 /*Educacion*/
 .edu-img{
@@ -241,9 +260,7 @@ a:hover{
     background-color:rgba(202, 162, 128, 0.892); 
 }
 
-a {
-    color: #9C3D54;
-}
+
 
 /*Projectos*/
 .card-height1{
@@ -272,12 +289,10 @@ a {
     line-height:33px;
     
 }
-
-.fa-lg:hover{
-       
-        
-        font-size: 1.5em;
-    }
+/*Contacto*/
+.fa-lg:hover{      
+    font-size: 1.5em;
+}
       
 /*Footer*/
 .footer{
