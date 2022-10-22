@@ -27,6 +27,8 @@ html{
 
 body {
     color:#525252;
+    margin:0;
+    padding:0;
 }
 
 .contenedor{
@@ -156,6 +158,7 @@ a:hover{
     background-size: cover;
     background-position:  center;
     width: max-content;
+    
 }
 
 
@@ -298,10 +301,12 @@ a:hover{
 .fa-lg:hover{      
     font-size: 1.5em;
 }
+#contacto{
+    padding:0;
+}
       
 /*Footer*/
 .footer{
     background-color: hsla(345, 44%, 43%, 0.741);
-    margin:0;
     padding:0;
 }
