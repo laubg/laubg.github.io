@@ -184,6 +184,10 @@ a:hover{
     margin-bottom: 13rem;
 }
 
+.bodyrow{
+    margin:0;
+}
+
 #perfiles{
     color: white;
 }
