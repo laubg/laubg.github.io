@@ -127,6 +127,9 @@ a:hover{
   color: white !important;
 }
 
+/* .barra{
+    width: max-content; 
+} */
 
 /* Header */
 
@@ -139,7 +142,9 @@ a:hover{
     }
 }
 
-
+.body.row{
+    margin:0;
+}
 /* @keyframes colorear{
    0%{color:#9C3D54}
 } */
@@ -297,4 +302,6 @@ a:hover{
 /*Footer*/
 .footer{
     background-color: hsla(345, 44%, 43%, 0.741);
+    margin:0;
+    padding:0;
 }
