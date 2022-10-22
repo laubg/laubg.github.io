@@ -308,7 +308,19 @@ a:hover{
 #contacto{
     padding:0;
 }
-      
+
+@media (max-width: 769px) {
+    .col-sm-3 {
+        float:none;    
+        width: 25%;
+        text-align: center;
+    }
+    
+    .fa-lg{      
+        font-size: 1.8em;
+    }
+}
+
 /*Footer*/
 .footer{
     background-color: hsla(345, 44%, 43%, 0.741);
