@@ -46,15 +46,23 @@ h1, h3{
 h2,h4, h5, h6, p, a{
     font-family: 'Hind Madurai';
 }
+
 h1, h2, h3{
     font-weight: 700 !important;
 }
+
 h4, h5, h6, p, a{
     font-weight: 350 !important;
 }
+
 a{
-    color: white;
+    color: #9C3D54;
 }
+
+a:hover{
+    color:#c3976f
+}
+
 .btn {
     color: var(--white) !important;
     background-color: var(--primary) !important;
@@ -65,13 +73,11 @@ a{
     color: var(--white) !important;
     background-color: var(--primary) !important;
 }
-.btn:hover {
-    background-color: var(--grey) !important;
-    color: var(--dark3-grey) !important;
-}
 
-#perfiles{
-    color: white;
+.btn:hover {
+    background-color: #9e485d !important;
+    color: white !important;
+    transform: scale(1.1) !important;
 }
 
 .fa-circle-check{
@@ -130,9 +136,9 @@ a{
 }
 
 
-@keyframes colorear{
+/* @keyframes colorear{
    0%{color:#9C3D54}
-}
+} */
 
 .header {
     min-height: 53rem;
@@ -166,7 +172,12 @@ a{
     margin-bottom: 13rem;
 }
 
-
+#perfiles{
+    color: white;
+}
+#perfiles:hover{
+    transform: scale(1.1) !important;
+}
 
 /* Sobre mi  */
 #img-retrato {
@@ -262,6 +273,12 @@ a {
     
 }
 
+.fa-lg:hover{
+       
+        
+        font-size: 1.5em;
+    }
+      
 /*Footer*/
 .footer{
     background-color: hsla(345, 44%, 43%, 0.741);
