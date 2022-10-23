@@ -255,9 +255,10 @@ a:hover{
 
 /*Educacion*/
 #educacion-retrato{   
-    height: auto; 
-    position: relative;
+    position: relative; 
     margin: 1rem auto;
+   /* max-width: 100%;
+   height:100%; */
 }
 
 .educacion{
@@ -312,7 +313,6 @@ a:hover{
     .col-sm-3 {
         float:none;    
         width: 25%;
-        text-align: center;
     }
     
     .fa-lg{      
